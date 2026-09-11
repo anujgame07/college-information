@@ -480,15 +480,15 @@ footer p {
     }
 }
 .hero {
-   background:
-       linear-gradient(
-        90deg,
-        rgba(8, 15, 35, 0.88),
-        rgba(8, 15, 35, 0.55),
-        rgba(8, 15, 35, 0.25)
-    ),
-    url("campus.jpeg");
+    min-height: 100vh;
+    padding: 140px 8% 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
 
-background-size: cover;
-background-position: center;
+    background-image: url("campus.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
