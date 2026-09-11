@@ -479,3 +479,16 @@ footer p {
         font-size: 35px;
     }
 }
+.hero {
+   background:
+       linear-gradient(
+        90deg,
+        rgba(8, 15, 35, 0.88),
+        rgba(8, 15, 35, 0.55),
+        rgba(8, 15, 35, 0.25)
+    ),
+    url("https:/anujgame07.github.io/college-information/campus/jpg/jpeg);
+
+background-size: cover;
+background-position: center;
+}
